@@ -1,0 +1,176 @@
+@media screen and (max-width: 475px) {
+    #advert {
+        display: none;
+    }
+
+    .need {
+        display: none;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    ul {
+        justify-content: space-between;
+        gap: 12px;
+        font-size: 0.9em;
+    }
+
+    #nav {
+        padding: 1em;
+
+    }
+
+    #nav ul > li > a:not(.redlink, .cart) {
+        display: none;
+    }
+
+    .cardholder {
+        display: none;
+    }
+
+    #banner {
+        padding: 1em 0 1em 20px;
+        color: #506683;    
+    }
+
+    .FBanner {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+    }
+    
+    #banner h2 {
+        margin-bottom: 10px;
+    }
+    #banner h1 {
+        font-size: 3rem;
+    }
+
+    .search {
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .FBanner span {
+        margin: 15px 0;
+    }
+    
+    .search input {
+        width: 80vw;
+        padding: 20px 0;
+        border: 0;
+        color: #708095;
+        line-height: 1rem;
+        font-size: 0.8rem;
+    }
+
+    #ps {
+        padding: 50px 1em;
+    }
+
+    .pcontainer {
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    #pitem {
+        width: 90vw;
+        height: auto;
+        align-items: center;
+        border: 1px solid #f7f6f4;
+        box-shadow: 0 0 5px 0px #f7f6f4;
+    }
+
+    .pstitle h1, .category h1 {
+        font-size: 1.2em;
+    }
+
+    #pccontainer {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #pitem img {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .category {
+        padding: 1em;
+    }
+
+    #sponsor h4 {
+        width: auto;
+    }
+
+    #sponsor {
+        padding: 1em;
+    }
+
+    #whatPeople {
+        padding: 1em;
+    }
+
+    #peoplecon {
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 1em;
+    }
+    
+    .customers {
+        width: auto;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    #count {
+        background-color: #fff;
+        padding:   1em;
+    }
+    
+    #countcon {
+        flex-direction: column;
+    }
+    
+    .counters {
+        width: auto;
+        flex-direction: column;
+        gap: 1em;
+        padding: 1em;
+    }
+
+    #amazingWork {
+        padding: 1em;
+    }
+
+    #amazingcon {
+        flex-direction: column;
+    }
+
+    .amazing {
+        padding: 1em;
+        gap: 0;
+    }
+
+    #quicklink {
+        padding: 1em;
+        gap: 2em;
+        flex-direction: column;
+    }
+
+    .quick ul {
+        gap: .5em;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+    
+    
+    
+}
